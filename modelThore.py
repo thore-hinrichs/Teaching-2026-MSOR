@@ -1,6 +1,8 @@
 # Import the PuLP module for linear programming
 import pulp
 
+## start
+
 # Initialize the problem for maximisation
 myModel = pulp.LpProblem(name="Production_Problem", sense=pulp.LpMaximize)
 
